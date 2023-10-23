@@ -1,0 +1,48 @@
+#image {
+    width: 100%;
+    justify-content: center;
+
+}
+
+a {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+form {
+    border: 5px solid #1c1715;
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+#results {
+    border: 1px solid #1c1715;
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 50%;
+
+}
+
+#submit-div {
+    display: flex;
+}
+
+#submit-btn {
+    background-color: chocolate;
+    font-weight: bold;
+    font-family: "Patrick Hand";
+    font-size: large;
+    justify-content: center;
+}
+
+body {
+    background-color: #ffc2a8;
+}
+

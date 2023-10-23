@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peter Aimasiko</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick%20Hand">
+        <style>
+            body {
+                font-family: "Patrick Hand", sans-serif;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <form action="results.html" method="get">
+            <h1>What Anderson .Paak album are you?</h1>
+            <p>Answer these questions to figure out what Anderson .Paak album you are based on your personality.</p>
+            <br/>
+            <div>
+                <p><b>Out of these cereal brands, which ones are your favorite?</b></p>
+                <input type="checkbox" id="flakes" name="cereal" value="flakes"> 
+                <label for="flakes">Frosted Flakes</label>
+                
+                <input type="checkbox" id="cocoa" name="cereal" value="cocoa"> 
+                <label for="cocoa">Cocoa Puffs</label>
+
+                <input type="checkbox" id="wheats" name="cereal" value="wheats"> 
+                <label for="wheats">Frosted Mini-Wheats</label>
+            </div>
+            
+            <div>
+                <p><b>How many siblings do you have?</b></p>
+                <input type="radio" id="one" name="siblings" value="one">
+                <label for="one">One</label>
+
+                <input type="radio" id="many" name="siblings" value="many">
+                <label for="many">Many</label>
+
+                <input type="radio" id="none" name="siblings" value="none">
+                <label for="none">None</label>
+                
+                <input type="radio" id="nofame" name="siblings" value="nofam">
+                <label for="nofam">I have no family.</label>
+            </div>
+            
+            <div>
+                <p><b>What is your favorite Tom Holland Spider-Man movie?</b></p>
+                <input type="radio" id="homecoming" name="movies" value="homecoming">
+                <label for="homecoming">Spider-Man Homecoming</label>
+
+                <input type="radio" id="farhome" name="movies" value="farhome">
+                <label for="farhome">Spider-Man Far From Home</label>
+
+                <input type="radio" id="nohome" name="movies" value="nohome">
+                <label for="nohome">Spider-Man No Way Home</label>
+            </div>
+
+            <div>
+                <p><b>What's your favorite fruit?</b></p>
+                <input type="radio" id="orange" name="fruit" value="orange">
+                <label for="orange">Orange</label>
+
+                <input type="radio" id="apple" name="fruit" value="apple">
+                <label for="apple">Apple</label>
+
+                <input type="radio" id="banana" name="fruit" value="banana">
+                <label for="banana">Banana</label>
+
+                <input type="radio" id="grape" name="fruit" value="grape">
+                <label for="grape">Grape</label>
+            </div>
+
+            <div>
+               <label for="scaleof"><b>What were your thoughts on Honestly Nevermind on a scale of one to ten?</b></label>
+               <select name="scaleof" id="scaleof">
+                    <option value="10">10</option>
+                    <option value="9">9</option>
+                    <option value="8">8</option>
+                    <option value="7">7</option>
+                    <option value="6">6</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+               </select>
+
+
+            </div>
+            <br/>
+            <div id="submit-div" >
+                <input id="submit-btn" type="submit" value="Submit">
+            </div>
+
+        </form>
+    </body>
+</html>
